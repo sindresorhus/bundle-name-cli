@@ -1,7 +1,7 @@
 import childProcess from 'child_process';
 import test from 'ava';
 
-test(t => {
+test.cb(t => {
 	childProcess.execFile('./cli.js', ['com.apple.Safari'], {
 		cwd: __dirname
 	}, (err, stdout) => {
