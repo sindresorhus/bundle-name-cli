@@ -1,7 +1,7 @@
 {
   "name": "bundle-name-cli",
   "version": "1.0.0",
-  "description": "Get bundle name from a bundle identifier (OS X): com.apple.Safari → Safari",
+  "description": "Get bundle name from a bundle identifier (macOS): `com.apple.Safari` → `Safari`",
   "license": "MIT",
   "repository": "sindresorhus/bundle-name-cli",
   "author": {
