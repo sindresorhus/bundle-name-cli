@@ -13,7 +13,7 @@ const cli = meow(`
 `);
 
 if (!cli.input[0]) {
-	console.error('Bundle ID required');
+	console.error('Specify a bundle ID');
 	process.exit(1);
 }
 

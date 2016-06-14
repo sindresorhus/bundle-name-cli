@@ -33,7 +33,9 @@
     "identifier",
     "CFBundleName",
     "CFBundleIdentifier",
-    "uti"
+    "uti",
+    "macos",
+    "osx"
   ],
   "dependencies": {
     "bundle-name": "^2.0.1",
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "ava": "*",
+    "execa": "^0.4.0",
     "xo": "*"
   },
   "xo": {
