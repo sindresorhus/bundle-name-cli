@@ -1,52 +1,49 @@
 {
-  "name": "bundle-name-cli",
-  "version": "1.0.0",
-  "description": "Get bundle name from a bundle identifier (macOS): `com.apple.Safari` → `Safari`",
-  "license": "MIT",
-  "repository": "sindresorhus/bundle-name-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "bundle-name": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "plist",
-    "applescript",
-    "bundle",
-    "bundleid",
-    "bundlename",
-    "id",
-    "identifier",
-    "CFBundleName",
-    "CFBundleIdentifier",
-    "uti",
-    "macos",
-    "osx"
-  ],
-  "dependencies": {
-    "bundle-name": "^2.0.1",
-    "meow": "^3.4.2"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.4.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "bundle-name-cli",
+	"version": "1.0.0",
+	"description": "Get bundle name from a bundle identifier (macOS): `com.apple.Safari` → `Safari`",
+	"license": "MIT",
+	"repository": "sindresorhus/bundle-name-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"bin": {
+		"bundle-name": "cli.js"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"plist",
+		"applescript",
+		"bundle",
+		"bundleid",
+		"bundlename",
+		"id",
+		"identifier",
+		"CFBundleName",
+		"CFBundleIdentifier",
+		"uti",
+		"macos"
+	],
+	"dependencies": {
+		"bundle-name": "^2.0.1",
+		"meow": "^6.1.0"
+	},
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"execa": "^4.0.0",
+		"xo": "^0.29.1"
+	}
 }

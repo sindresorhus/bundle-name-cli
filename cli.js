@@ -17,4 +17,6 @@ if (!cli.input[0]) {
 	process.exit(1);
 }
 
-bundleName(cli.input[0]).then(console.log);
+(async () => {
+	console.log(await bundleName(cli.input[0]));
+})();
