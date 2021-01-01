@@ -1,4 +1,4 @@
-# bundle-name-cli [![Build Status](https://travis-ci.com/sindresorhus/bundle-name-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/bundle-name-cli)
+# bundle-name-cli
 
 > Get [bundle name](https://developer.apple.com/library/Mac/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/plist/info/CFBundleName) from a [bundle identifier](https://developer.apple.com/library/Mac/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/plist/info/CFBundleIdentifier) (macOS): `com.apple.Safari` → `Safari`
 
