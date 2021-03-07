@@ -23,4 +23,4 @@ $ bundle-name --help
 
 ## Related
 
-- [bundle-name](https://github.com/sindresorhus/bundle-name) - API for this module
+- [bundle-name](https://github.com/sindresorhus/bundle-name) - API for this package

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const bundleName = require('bundle-name');
+import meow from 'meow';
+import bundleName from 'bundle-name';
 
 const cli = meow(`
 	Usage
